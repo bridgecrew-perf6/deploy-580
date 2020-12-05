@@ -6,7 +6,7 @@ GASTRONAMUS_USER="${GASTRONAMUS_USER:=$USER}"
 GASTRONAMUS_DIR="/home/$GASTRONAMUS_USER"
 GASTRONAMUS_TMP_DIR="$GASTRONAMUS_DIR/tmp"
 
-DEPLOY_BRANCH='master'
+DEPLOY_BRANCH='main'
 DEPLOY_URL="https://codeload.github.com/gastronamus/deploy/tar.gz/$DEPLOY_BRANCH"
 
 #NGINX_APT_FILE='/etc/apt/sources.list.d/nginx.list'
