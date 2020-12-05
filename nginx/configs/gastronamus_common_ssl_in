@@ -1,0 +1,8 @@
+ssl_certificate /etc/letsencrypt/live/gastronamus.doce.solutions/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/gastronamus.doce.solutions/privkey.pem;
+ssl_trusted_certificate /etc/letsencrypt/live/gastronamus.doce.solutions/cert.pem;
+
+include conf.d/gastronamus_common_ssl;
+
+ssl_session_ticket_key /home/ubuntu/ssl/ticket/gastronamus.key;
+ssl_dhparam /home/ubuntu/ssl/dhparam/gastronamus.pem;
