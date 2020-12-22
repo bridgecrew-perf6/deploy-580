@@ -1,6 +1,6 @@
-ssl_certificate /etc/letsencrypt/live/gastronamus.doce.solutions/fullchain.pem;
-ssl_certificate_key /etc/letsencrypt/live/gastronamus.doce.solutions/privkey.pem;
-ssl_trusted_certificate /etc/letsencrypt/live/gastronamus.doce.solutions/cert.pem;
+ssl_certificate /etc/letsencrypt/live/gastronamus.sacdis.com/fullchain.pem;
+ssl_certificate_key /etc/letsencrypt/live/gastronamus.sacdis.com/privkey.pem;
+ssl_trusted_certificate /etc/letsencrypt/live/gastronamus.sacdis.com/cert.pem;
 
 include conf.d/gastronamus_common_ssl;
 
